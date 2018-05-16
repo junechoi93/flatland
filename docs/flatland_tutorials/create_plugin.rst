@@ -141,7 +141,7 @@ Edit the file flatland_plugins.xml. Add the following before the closing </libra
 
 .. code-block:: Cpp
 
-  <class type="flatland_plugins::Simple" base_class_type="flatland_server::ModelPlugin">
+  <class type="flatland_tutorials::Simple" base_class_type="flatland_server::ModelPlugin">
     <description>Simplest possible plugin to print hello world</description>
   </class>
 
@@ -156,7 +156,7 @@ add the following followed by a blank line.
 
 .. code-block:: Cpp
 
-  - type: Simple
+  - type: flatland_tutorials::Simple
     name: simple
     
 6. Running the Flatland simulator with installed plugin

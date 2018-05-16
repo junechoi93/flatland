@@ -157,7 +157,6 @@ so it can be displayed inside the Flatland world.
             anchor: [-0.83, -0.29]
 
     plugins:
-
     - type: ModelTfPublisher
         name: tf_publisher
         publish_tf_world: true
